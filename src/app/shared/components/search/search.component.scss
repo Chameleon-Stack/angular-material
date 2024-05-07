@@ -1,0 +1,12 @@
+.search-bar {
+  flex-grow: 1;
+  padding-top: 10px;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+mat-form-field {
+  width: 100%;
+}
